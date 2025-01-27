@@ -17,7 +17,7 @@ header {
     height: 50px;
 }
 
-.hero {
+.hero, .feedback-section {
     background-image: url('hero-bg.jpg');
     background-size: cover;
     background-position: center;
@@ -25,21 +25,21 @@ header {
     padding: 100px 20px;
 }
 
-.hero-content {
+.hero-content, .feedback-section {
     background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 20px;
     border-radius: 10px;
 }
 
-.hero h1 {
+.hero h1, .feedback-section h1 {
     font-size: 3em;
     margin: 0;
     color: #ffcc00;
     text-shadow: 2px 2px #000;
 }
 
-.hero p {
+.feedback-section p {
     font-size: 1.2em;
     margin: 10px 0 20px;
 }
@@ -63,9 +63,9 @@ header {
     width: 200px;
 }
 
-.skin-item img {
-    width: 100%;
-    border-radius: 5px;
+.skin-item p {
+    margin: 0 0 10px;
+    font-weight: bold;
 }
 
 .skin-item a {
@@ -78,10 +78,6 @@ header {
 
 .skin-item a:hover {
     color: #e6b800;
-}
-
-.obb-section p {
-    margin: 20px 0;
 }
 
 .btn {
